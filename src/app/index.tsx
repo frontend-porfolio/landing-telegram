@@ -4,6 +4,7 @@ import Footer from "@/components/templates/footer"
 import Header from "@/components/templates/header"
 import Trust from "@/components/templates/trust"
 import Work from "@/components/templates/work"
+import Registration from "@/components/templates/registration"
 
 export default function App() {
   return (
@@ -13,6 +14,7 @@ export default function App() {
         <Header />
         <Trust />
         <Work />
+        <Registration />
       </main>
       <Footer />
     </div>

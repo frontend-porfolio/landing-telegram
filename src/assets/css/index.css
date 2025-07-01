@@ -25,6 +25,10 @@
     -webkit-text-stroke-color: #5f37d0;
     font-weight: 700;
   }
+  .registration--bg {
+    background: url('/registration/bg.png') no-repeat center center;
+    background-size: cover;
+  }
 }
 
 @layer utilities {
