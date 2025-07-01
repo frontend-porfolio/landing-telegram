@@ -1,8 +1,87 @@
 {
-    "navbar": {
-        "languages": {
-            "ru": "ru",
-            "en": "en"
-        }
+  "navbar": {
+    "languages": {
+      "ru": "ru",
+      "en": "en"
+    },
+    "links": {
+      "about": "About Us",
+      "advantages": "Advantages",
+      "services": "Services",
+      "contacts": "Contacts"
     }
+  },
+  "header": {
+    "first": {
+      "title": "Effective Advertising on Telegram",
+      "description": "We help you reach your target audience on Telegram and run effective ad campaigns",
+      "btn": "Get Started"
+    },
+    "second": {
+      "newUsers": "new users on the marketplace",
+      "verifiedChannels": "manually verified channels",
+      "completedOrders": "successfully completed orders"
+    }
+  },
+  "trust": {
+    "title": "Trusted by",
+    "integration": {
+      "steps": [
+        {
+          "id": "01",
+          "icon": "/trust/step-one.svg",
+          "title": "Register an Account",
+          "description": "Complete a quick registration to activate your account."
+        },
+        {
+          "id": "02",
+          "icon": "/trust/step-two.svg",
+          "title": "Channel Catalog",
+          "description": "Choose suitable channels from the catalog"
+        },
+        {
+          "id": "03",
+          "icon": "/trust/step-three.svg",
+          "title": "Top Up Balance",
+          "description": "Top up your balance using a convenient method:"
+        }
+      ],
+      "btn": "Register",
+      "thirdStepInfo": "Visa/MasterCard/MIR, Qiwi, Bank Transfer"
+    }
+  },
+  "work": {
+    "title": "Start Working with Us",
+    "clients": [
+      {
+        "id": 1,
+        "client": "Advertisers",
+        "info": "Promote your business with effective Telegram advertising"
+      },
+      {
+        "id": 2,
+        "client": "Channel Owners",
+        "info": "Earn money by placing ads in your channels and groups"
+      },
+      {
+        "id": 3,
+        "client": "Agencies",
+        "info": "Telegram is a new marketing channel for your clients"
+      }
+    ]
+  },
+  "registration": {
+    "title": "Registration",
+    "description": "Create an account via Telegram in just a few clicks",
+    "btn": "Create Account"
+  },
+  "questions": {
+    "title": "Have Questions?",
+    "description": "Write to us and we’ll get back to you shortly",
+    "socials": {
+      "vk": "Message on VKontakte",
+      "telegram": "Message on Telegram",
+      "facebook": "Message on Facebook"
+    }
+  }
 }
