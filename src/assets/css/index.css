@@ -29,6 +29,13 @@
     background: url('/registration/bg.png') no-repeat center center;
     background-size: cover;
   }
+  .questions--bg {
+    background: url('/questions/bg.png') no-repeat center center;
+    background-size: cover;
+  }
+  .questions__icons {
+    @apply text-[#7044CC] text-[30px]
+  }
 }
 
 @layer utilities {

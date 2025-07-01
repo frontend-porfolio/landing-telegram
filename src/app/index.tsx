@@ -5,6 +5,7 @@ import Header from "@/components/templates/header"
 import Trust from "@/components/templates/trust"
 import Work from "@/components/templates/work"
 import Registration from "@/components/templates/registration"
+import Questions from "@/components/templates/questions"
 
 export default function App() {
   return (
@@ -15,6 +16,7 @@ export default function App() {
         <Trust />
         <Work />
         <Registration />
+        <Questions />
       </main>
       <Footer />
     </div>
