@@ -41,7 +41,7 @@ export default function Trust() {
   ] as const
 
   return (
-    <section className="custom-container flex flex-col gap-8 py-[30px] md:gap-15 md:py-[50px]">
+    <section className="custom-container flex flex-col gap-8 py-[30px] md:gap-18 md:py-[50px]">
       <h2 className="text-center text-[25px] leading-[54px] text-[#7044CC] md:text-[55px]">
         {t("trust.title")}
       </h2>
@@ -56,24 +56,24 @@ export default function Trust() {
       </div>
       <div className="grid grid-cols-1">
         {steps.map(({ id, icon, title, description }: Step) => {
+          const isFirst = id === '01'   
           const isSecond = id === '02'
           const isThirdStep = id === "03"
-
           return (
-            <div key={id} className={`grid grid-cols-1 p-5 md:grid-cols-2 ${ isSecond ? 'bg-[#F6F6F6]' : 'bg-transparent'}`}>
+            <div key={id} className="grid grid-cols-1 p-5 md:grid-cols-2 transition-all duration-300 ease-in-out bg-transparent hover:bg-[#F6F6F6] cursor-pointer md:py-[50px] py-[30px]">
               <div className={`${isSecond ? 'order-2' : ''} flex flex-col gap-3`}>
                 <div className="flex items-center gap-4">
-                  <span>{id}</span>
-                  <img src={icon} alt={id} />
+                  <span className="trust__step md:text-[100px] text-[40px] leading-[99px] text-transparent">{id}</span>
+                  <img className="h-[62px]" src={icon} alt={id} />
                 </div>
-                <h4>{title}</h4>
+                <h4 className="text-black md:text-[35px] text-[25px] font-medium leading-[34px]">{title}</h4>
               </div>
               <div className={`${isSecond ? 'order-0' : ''} flex flex-col gap-3`}>
-                {isThirdStep && (
-                  <span className="text-gray-400">{t("trust.integration.thirdStepInfo")}</span>
+                <p className="text-gray-400 font-normal text-[16px] leading-[27px]">{description}</p>
+                 {isThirdStep && (
+                  <span className="text-black text-[17px] font-normal leading-[27px]">{t("trust.integration.thirdStepInfo")}</span>
                 )}
-                <p>{description}</p>
-                {id === "01" && <a href="#">{t("trust.integration.btn")}</a>}
+                {isFirst && <a className="iniline-block w-fit rounded-full bg-[#7044CC] text-white py-1 px-7 text-[15px] font-medium uppercase leading-[34px]" href="#">{t("trust.integration.btn")}</a>}
                 {isThirdStep && (
                   <div className="flex items-center gap-3">
                     {stepThridImages.map(({ alt, image }) => (

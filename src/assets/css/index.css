@@ -7,7 +7,7 @@
   --font-montserrat: "Montserrat", sans-serif;
   --font-noto-sans: "Noto Sans", sans-serif;
   --font-poppins: "Poppins", sans-serif;
-  --purple-color: #7044CC;
+  --purple-color: #7044cc;
 }
 
 @layer base {
@@ -18,7 +18,12 @@
 
 @layer components {
   .custom-container {
-    @apply md:max-w-[1200px] mx-auto w-full p-5
+    @apply mx-auto w-full p-5 md:max-w-[1200px];
+  }
+  .trust__step {
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #5f37d0;
+    font-weight: 700;
   }
 }
 

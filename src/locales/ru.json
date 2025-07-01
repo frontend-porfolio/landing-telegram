@@ -43,11 +43,11 @@
                     "id": "03",
                     "icon": "/trust/step-three.svg",
                     "title": "Пополните баланс",
-                    "description": "Visa/MasterCard/МИР, Qiwi Банковский перевод"
+                    "description": "Пополните баланс удобным способом:"
                 }
             ],
             "btn": "регистрация",
-            "thirdStepInfo": "Пополните баланс удобным способом:"
+            "thirdStepInfo": "Visa/MasterCard/МИР, Qiwi Банковский перевод"
         }
     }
 }
