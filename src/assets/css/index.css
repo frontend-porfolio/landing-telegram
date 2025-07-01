@@ -1,0 +1,31 @@
+@import "./modules/_fonts.css";
+
+@import "tailwindcss";
+
+:root {
+  --font-jost: "Jost", sans-serif;
+  --font-montserrat: "Montserrat", sans-serif;
+  --font-noto-sans: "Noto Sans", sans-serif;
+  --font-poppins: "Poppins", sans-serif;
+}
+
+@layer base {
+  body {
+    font-family: "Jost", serif;
+  }
+}
+
+@layer utilities {
+  .font-jost {
+    font-family: var(--font-jost);
+  }
+  .font-montserrat {
+    font-family: var(--font-montserrat);
+  }
+  .font-notosans {
+    font-family: var(--font-noto-sans);
+  }
+  .font-poppins {
+    font-family: var(--font-poppins);
+  }
+}
