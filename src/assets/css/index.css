@@ -16,6 +16,12 @@
   }
 }
 
+@layer components {
+  .custom-container {
+    @apply md:max-w-[1200px] mx-auto w-full p-5
+  }
+}
+
 @layer utilities {
   .font-jost {
     font-family: var(--font-jost);

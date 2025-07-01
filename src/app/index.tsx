@@ -2,6 +2,7 @@ import Navbar from "@/components/templates/navbar"
 import Footer from "@/components/templates/footer"
 
 import Header from "@/components/templates/header"
+import Trust from "@/components/templates/trust"
 
 export default function App() {
   return (
@@ -9,6 +10,7 @@ export default function App() {
       <Navbar />
       <main className="flex-1">
         <Header />
+        <Trust />
       </main>
       <Footer />
     </div>

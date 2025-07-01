@@ -22,5 +22,32 @@
             "verifiedChannels": "каналов, проверенных вручную",
             "completedOrders": "успешно реализованных заказов"
         }
+    },
+    "trust": {
+        "title": "Нам доверяют",
+        "integration": {
+            "steps": [
+                {
+                    "id": "01",
+                    "icon": "/trust/step-one.svg",
+                    "title": "Регистрируйте аккаунт",
+                    "description": "Пройдите быструю регистрацию чтобы активировать аккаунт."
+                },
+                 {
+                    "id": "02",
+                    "icon": "/trust/step-two.svg",
+                    "title": "Каталог каналов",
+                    "description": "Выберите подходящие каналы в каталоге"
+                },
+                 {
+                    "id": "03",
+                    "icon": "/trust/step-three.svg",
+                    "title": "Пополните баланс",
+                    "description": "Visa/MasterCard/МИР, Qiwi Банковский перевод"
+                }
+            ],
+            "btn": "регистрация",
+            "thirdStepInfo": "Пополните баланс удобным способом:"
+        }
     }
 }

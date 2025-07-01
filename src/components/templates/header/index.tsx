@@ -21,7 +21,7 @@ export default function Header() {
     ] as const
 
   return (
-    <section className="md:max-w-[1200px] mx-auto w-full p-5 flex flex-col md:gap-30 gap-10 md:py-[50px] py-[30px]">
+    <section className="custom-container flex flex-col md:gap-30 gap-10 md:py-[50px] py-[30px]">
       <div className="flex flex-col gap-4 md:w-[700px] w-full">
         <h1 className="text-black md:text-[85px] text-[25px] font-semibold leading-[90px]">{t('header.first.title')}</h1>
         <p className="text-gray-500 text-[17px] leading-[27px]">{t('header.first.description')}</p>
