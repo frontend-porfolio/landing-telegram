@@ -3,6 +3,7 @@ import Footer from "@/components/templates/footer"
 
 import Header from "@/components/templates/header"
 import Trust from "@/components/templates/trust"
+import Work from "@/components/templates/work"
 
 export default function App() {
   return (
@@ -11,6 +12,7 @@ export default function App() {
       <main className="flex-1">
         <Header />
         <Trust />
+        <Work />
       </main>
       <Footer />
     </div>
