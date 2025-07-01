@@ -16,13 +16,13 @@ export const Language = ({ lang, changeLanguage, en, ru }: LanguageProps) => {
     return (
         <div ref={languageRef} className="relative z-50">
             <button
-                className="flex h-[40px] w-[60px] cursor-pointer items-center justify-center border-2 border-[#D42E12] text-[14px] font-bold text-red uppercase"
+                className="flex h-[40px] w-[60px] cursor-pointer items-center justify-center uppercase text-[17px] font-medium"
                 onClick={() => setBtnLng(!btnLng)}>
                 {language}
             </button>
 
             <div
-                className={`absolute top-[50px] flex w-[60px] transform flex-col gap-2 border-2 border-[#D42E12] bg-black/80 px-[10px] py-[5px] text-red shadow-md transition-all duration-300 ease-in-out ${
+                className={`absolute top-[50px] flex w-[60px] transform flex-col gap-2 border-2 border-[#D42E12] px-[10px] py-[5px] text-red shadow-md transition-all duration-300 ease-in-out ${
                     btnLng
                         ? "scale-100 opacity-100"
                         : "pointer-events-none scale-95 opacity-0"

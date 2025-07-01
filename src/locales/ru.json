@@ -3,6 +3,12 @@
         "languages": {
             "ru": "ру",
             "en": "анг"
+        },
+        "links": {
+            "about": "О нас",
+            "advantages": "Преимущества",
+            "services": "Сервисы",
+            "contacts": "Контакты"
         }
     }
 }

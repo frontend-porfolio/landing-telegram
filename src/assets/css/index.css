@@ -7,6 +7,7 @@
   --font-montserrat: "Montserrat", sans-serif;
   --font-noto-sans: "Noto Sans", sans-serif;
   --font-poppins: "Poppins", sans-serif;
+  --purple-color: #7044CC;
 }
 
 @layer base {
@@ -27,5 +28,8 @@
   }
   .font-poppins {
     font-family: var(--font-poppins);
+  }
+  .purple-color {
+    color: var(--purple-color);
   }
 }
