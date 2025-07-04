@@ -12,13 +12,16 @@
 
 @layer base {
   body {
-    font-family: "Jost", serif;
+    font-family: "Jost", serif
+  }
+  .body--no-scroll {
+    overflow: hidden
   }
 }
 
 @layer components {
   .custom-container {
-    @apply mx-auto w-full p-5 md:max-w-[1200px];
+    @apply mx-auto w-full p-5 md:max-w-[1200px]
   }
   .trust__step {
     -webkit-text-stroke-width: 1px;
