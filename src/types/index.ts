@@ -9,4 +9,5 @@ export interface LanguageProps {
 	changeLanguage: (language: string) => void
 	en: string
 	ru: string
+	isMenu: boolean
 }
